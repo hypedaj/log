@@ -21,3 +21,6 @@ loansData['FICO.Range'] = loansData['FICO.Range'].map(lambda x: x.split('-'))
 loansData['FICO.Range'] = loansData['FICO.Range'].map(lambda x: int(x[0]))
 
 print loansData['FICO.Range'][0:5]
+
+
+
